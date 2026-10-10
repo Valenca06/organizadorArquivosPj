@@ -42,15 +42,6 @@ Após o tratamento das duplicatas, o script mapeia as extensões restantes e org
 
 ---
 
-## 💻 Como Executar
-
-Abra o terminal no diretório onde os arquivos estão localizados e execute o script principal:
-
-```bash
-python main.py
-
----
-
 ## 🔬 Testes e Validação de Integridade (`test.py`)
 
 Para garantir que a organização ocorreu de forma precisa e sem perda ou corrupção de dados, o projeto inclui um script de validação automatizada (**`test.py`**).
@@ -75,3 +66,12 @@ Para executar o ciclo completo de validação do projeto (geração, execução 
 1. **Criar o ambiente limpo de testes**:
    ```bash
    python gen.py
+
+## 💻 Como Executar
+
+Abra o terminal no diretório onde os arquivos estão localizados e execute o script principal nele (lembre-se de mover o script principal pra dentro da pasta a ser orgnizada):
+
+```bash
+python main.py
+
+---
